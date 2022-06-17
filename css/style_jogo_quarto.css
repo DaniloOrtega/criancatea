@@ -1,0 +1,12 @@
+body{
+  background: #58cc02;
+  font-family: Nunito;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}

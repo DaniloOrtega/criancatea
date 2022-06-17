@@ -1,0 +1,14 @@
+body{
+  background: #58cc02;
+  font-family: Nunito;
+  text-align: center;
+}
+
+#ambientes{
+  list-style: none;
+  padding: 0; 
+}
+
+#ambientes li{
+  display: inline;
+}
