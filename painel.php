@@ -1,6 +1,19 @@
 <?php
-include('protect.php');
 
+  require('conexao.php');
+  // print_r($_SESSION);
+
+// VERIFICAÇAO DE AUTENTICAÇAO
+$user = auth($_SESSION['TOKEN']);
+if($user){
+  // SE USUSARIO AUTENCIAR - ENTRA NO PAINEL
+  echo "<h1> SEJA BEM VINDO(A) <b style='color:red'>". $user['nome']."!</b></h1>";
+ 
+  }
+else{
+  // SE NAO AUTENTICAR - REDIRECIONA PARA LOGIN
+  header('Location: index.php');
+}
 ?>
 
 <!DOCTYPE html>
@@ -36,24 +49,8 @@ include('protect.php');
 								<h1><a href="index.html">Criança TEA</a></h1>
 							</div>
 
-						<!-- Nav -->
-							<!-- <nav id="nav">
-								<ul>
-									<li class="current"><a href="index.html">Inicio</a></li>
-								
-									<li><a href="left-sidebar.html">História</a></li>
-									<li><a href="right-sidebar.html">Contato</a></li>
-									<li><a href="no-sidebar.html">Cadastre-se</a></li>
-								</ul>
-							</nav> -->
-
 					</header>
 				</div>
-
-        <section class="painel_jogos">
-        <p>
-        Bem vindo(a) ao Painel
-        </p>
 
         <h1>Atividades</h1>
   <div>
@@ -67,14 +64,14 @@ include('protect.php');
       <li><a href="ambientes/sala/sala.html"><img src="img/Sala.jpg" width="200px" height="160px" alt="Sala"></a></li>
       <li><a href="ambientes/quintal/quintal.html"><img src="img/Quintal.jpg" width="200px" height="160px"
             alt="Quintal"></a></li>
-    </ul>
+    </ul>    
   </div>
-
-        <p>
-          <a href="logout.php">Sair</a>
-        </p>
         </section>
        
       </body>
 
     </html>
+<?php
+ echo "<br> <br> <a style='background:green; text-decoration:none; color:white; padding:20px; border-radius:5px;' href='logout.php'>Sair do sistema</a>";
+
+?>

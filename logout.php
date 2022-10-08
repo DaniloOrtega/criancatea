@@ -1,12 +1,9 @@
-<?php
+<?php 
+session_start();
+session_unset();
+session_destroy();
 
-  if(!isset($_SESSION)){
-    session_start();
-  }
-
-  session_destroy();
-
-  header("Location: entrar.php");
-
+// PAGINA QUE DESEJA REDIRECIONAR QUANDO SAIR DO PAINEL
+header('location: index.html');
 
 ?>

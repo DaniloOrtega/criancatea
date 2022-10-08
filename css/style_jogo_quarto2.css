@@ -1,0 +1,13 @@
+body{
+  background-image: url('../img/peca-do-quebra-cabeca-simbolo-do-autismo-800x600.png');
+  font-family: Nunito;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
