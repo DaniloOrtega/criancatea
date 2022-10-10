@@ -12,7 +12,7 @@ if($user){
   }
 else{
   // SE NAO AUTENTICAR - REDIRECIONA PARA LOGIN
-  header('Location: index.php');
+  header('Location: entrar.php');
 }
 ?>
 
@@ -46,7 +46,7 @@ else{
 
 						<!-- Logo -->
 							<div id="logo">
-								<h1><a href="index.html">Criança TEA</a></h1>
+								<h1><a href="index.php">Criança TEA</a></h1>
 							</div>
 
 					</header>

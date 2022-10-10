@@ -11,7 +11,7 @@
   <!-- Configuração do favicon -->
   <link rel="icon" type="image/x-icon" href="../../img/icon.ico">
   <!-- Título na guia do navegador -->
-  <title>Jogo Da Memoria | Sala</title>
+  <title>Jogo Da Memoria | Login</title>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="../../css/login.css">
   <link rel="stylesheet" href="../../css/style_jogo_quarto2.css">
   <!-- Conexão de Java Script -->
-  <script defer src="../../js/Sala/login_sala.js"></script>
+  <script defer src="../../js/Banheiro/login_banheiro.js"></script>
 
 </head>
 
@@ -40,7 +40,7 @@
     <button type="submit" class="login__button" disabled>Play</button>
 
     <br><br><br><br>
-    <a href="sala.html">Voltar</a>
+    <a href="banheiro.php">Voltar</a>
 
   </form>
 

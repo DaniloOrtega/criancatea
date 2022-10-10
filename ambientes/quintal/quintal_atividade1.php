@@ -9,9 +9,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Configuração do favicon -->
-  <link rel="icon" type="image/x-icon" href="../../img/icon.ico">
+  <link rel="icon" type="image/x-icon" href="img/icon.ico">
   <!-- Título na guia do navegador -->
-  <title>Jogo Da Memoria | Quintal</title>
+  <title>Quintal - Imagem - Palavras</title>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,30 +19,31 @@
     href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Oswald&family=PT+Serif:wght@700&display=swap"
     rel="stylesheet">
   <!-- Conexão da folha de estilos -->
-  <link rel="stylesheet" href="../../css/reset.css">
-  <link rel="stylesheet" href="../../css/login.css">
-  <link rel="stylesheet" href="../../css/style_jogo_quarto2.css">
-  <!-- Conexão de Java Script -->
-  <script defer src="../../js/Quintal/login_quintal.js"></script>
-
+  <link rel="stylesheet" href="../../css/style_jogo.css">
 </head>
 
 <body>
+  <section id="quarto">
+    <img id="quarto1" src="../../img/Quintal.jpg" alt="Imagem do Quarto" width="350px">
 
-  <form class="login-form">
+    <div id="wrapper">
+      <div id="titulo"></div>
 
-    <div class="login__header">
-      <img src="../../images/brain.png" alt="brain icon">
-      <h1>Jogo Da Memoria</h1>
-    </div>
+      <ul>
+        <li class="alternativa"></li>
+        <li class="alternativa"></li>
+        <li class="alternativa"></li>
+      </ul>
 
-    <input type="text" placeholder="Nome" class="login__input">
-    <button type="submit" class="login__button" disabled>Play</button>
+      <div id="resultado"></div>
 
-    <br><br><br><br>
-    <a href="quintal.html">Voltar</a>
+      <div id="pontos"></div>
 
-  </form>
+      <a href="quintal.php">Voltar</a>
+  </section>
+
+
+  <script type="text/javascript" src="../../js/script_quintal.js"></script>
 
 </body>
 

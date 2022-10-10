@@ -27,16 +27,16 @@
 
 						<!-- Logo -->
 							<div id="logo">
-								<h1><a href="index.html">Criança TEA</a></h1>
+								<h1><a href="index.php">Criança TEA</a></h1>
 							</div>
 
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
-									<li class="current"><a href="index.html">Inicio</a></li>
+									<li class="current"><a href="index.php">Inicio</a></li>
 								
-									<li><a href="historia.html">História</a></li>
-									<li><a href="contato.html">Contato</a></li>
+									<li><a href="historia.php">História</a></li>
+									<li><a href="contato.php">Contato</a></li>
 									<li><a href="cadastro.php">Cadastre-se</a></li>
 								</ul>
 							</nav>

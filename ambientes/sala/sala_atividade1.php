@@ -35,7 +35,7 @@
 
     <div id="pontos"></div>
 
-    <a href="sala.html">Voltar</a>
+    <a href="sala.php">Voltar</a>
   </section>
 
 

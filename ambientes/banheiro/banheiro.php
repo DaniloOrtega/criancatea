@@ -9,9 +9,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Configuração do favicon -->
-  <link rel="icon" type="image/x-icon" href="../../img/icon.ico">
+  <link rel="icon" type="image/x-icon" href="img/icon.ico">
   <!-- Título na guia do navegador -->
-  <title>Criança TEA - Quarto</title>
+  <title>Criança TEA - Banheiro</title>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,17 +25,17 @@
 <body>
   <div>
     <ul class="atividade1">
-      <li><a href="quarto_atividade1.html"><img src="../../images/jogo_de_perguntas.jpg" width="200px" height="160px"
-            alt="Atividade 1"><br>Jogo De Perguntas</a></li>
+      <li><a href="banheiro_atividade1.php"><img src="../../images/jogo_de_perguntas.jpg" width="200px" height="160px"
+            alt="Atividade 1"><br>Jodo De Perguntas</a></li>
     </ul>
     <ul class="atividade2">
-      <li><a href="quarto_atividade2.html"><img src="../../images/jogo_da_memoria.jpg" width="200px" height="160px"
-            alt="Atividade 1"><br>Jogo Da Memoria</a></li>
+      <li><a href="banheiro_atividade2.php"><img src="../../images/jogo_da_memoria.jpg" width="200px" height="160px"
+            alt="Atividade 2"><br>Jogo Da Memoria</a></li>
     </ul>
     <br>
     <ul class="atividade3">
-      <li><a href="quarto_atividade3.html"><img src="../../images/jogo_da_forca.jpg" width="200px" height="160px"
-            alt="Atividade 1"><br>Jogo Da Forca</a></li>
+      <li><a href="banheiro_atividade3.php"><img src="../../images/jogo_da_forca.jpg" width="200px" height="160px"
+            alt="Atividade 3"><br>Jogo Da Forca</a></li>
     </ul>
     <br><br>
     <center><b><a href="../../painel.php">Voltar</a></b></center>

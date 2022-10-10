@@ -22,16 +22,16 @@
 <body>
   <div>
     <ul class="atividade1">
-      <li><a href="sala_atividade1.html"><img src="../../images/jogo_de_perguntas.jpg" width="200px" height="160px"
+      <li><a href="sala_atividade1.php"><img src="../../images/jogo_de_perguntas.jpg" width="200px" height="160px"
             alt="Atividade 1"><br>Jodo De Perguntas</a></li>
     </ul>
     <ul class="atividade2">
-      <li><a href="sala_atividade2.html"><img src="../../images/jogo_da_memoria.jpg" width="200px" height="160px"
+      <li><a href="sala_atividade2.php"><img src="../../images/jogo_da_memoria.jpg" width="200px" height="160px"
             alt="Atividade 2"><br>Jogo Da Memoria</a></li>
     </ul>
     <br>
     <ul class="atividade3">
-      <li><a href="sala_atividade3.html"><img src="../../images/jogo_da_forca.jpg" width="200px" height="160px"
+      <li><a href="sala_atividade3.php"><img src="../../images/jogo_da_forca.jpg" width="200px" height="160px"
             alt="Atividade 3"><br>Jogo Da Forca</a></li>
     </ul>
     <br><br>

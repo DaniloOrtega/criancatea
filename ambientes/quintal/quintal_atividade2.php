@@ -9,9 +9,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Configuração do favicon -->
-  <link rel="icon" type="image/x-icon" href="img/icon.ico">
+  <link rel="icon" type="image/x-icon" href="../../img/icon.ico">
   <!-- Título na guia do navegador -->
-  <title>Cozinha - Imagem - Palavras</title>
+  <title>Jogo Da Memoria | Quintal</title>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,31 +19,30 @@
     href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Oswald&family=PT+Serif:wght@700&display=swap"
     rel="stylesheet">
   <!-- Conexão da folha de estilos -->
-  <link rel="stylesheet" href="../../css/style_jogo.css">
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/login.css">
+  <link rel="stylesheet" href="../../css/style_jogo_quarto2.css">
+  <!-- Conexão de Java Script -->
+  <script defer src="../../js/Quintal/login_quintal.js"></script>
+
 </head>
 
 <body>
-  <section id="quarto">
-    <img id="quarto1" src="../../img/Cozinha.jpg" alt="Imagem do Quarto" width="350px">
 
-    <div id="wrapper">
-      <div id="titulo"></div>
+  <form class="login-form">
 
-      <ul>
-        <li class="alternativa"></li>
-        <li class="alternativa"></li>
-        <li class="alternativa"></li>
-      </ul>
+    <div class="login__header">
+      <img src="../../images/brain.png" alt="brain icon">
+      <h1>Jogo Da Memoria</h1>
+    </div>
 
-      <div id="resultado"></div>
+    <input type="text" placeholder="Nome" class="login__input">
+    <button type="submit" class="login__button" disabled>Play</button>
 
-      <div id="pontos"></div>
+    <br><br><br><br>
+    <a href="quintal.php">Voltar</a>
 
-      <a href="cozinha.html">Voltar</a>
-  </section>
-
-
-  <script type="text/javascript" src="../../js/script_cozinha.js"></script>
+  </form>
 
 </body>
 

@@ -91,7 +91,7 @@
 
 						<!-- Logo -->
 							<div id="logo">
-								<h1 id="title"><a href="index.html">Criança TEA</a></h1>
+								<h1 id="title"><a href="index.php">Criança TEA</a></h1>
 							</div>
 
 					</header>

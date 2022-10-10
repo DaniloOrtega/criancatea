@@ -106,7 +106,7 @@
         crossorigin="anonymous"></script>
 
         <br><br><br>
-        <b><center><a href="quintal.html">Voltar</a></center></b>
+        <b><center><a href="quintal.php">Voltar</a></center></b>
 </body>
 
 </html>

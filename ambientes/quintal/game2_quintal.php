@@ -11,7 +11,7 @@
   <!-- Configuração do favicon -->
   <link rel="icon" type="image/x-icon" href="../../img/icon.ico">
   <!-- Título na guia do navegador -->
-  <title>Jogo Da Memoria | Login</title>
+  <title>Criança TEA | Jogo Da Memoria</title>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,29 +20,25 @@
     rel="stylesheet">
   <!-- Conexão da folha de estilos -->
   <link rel="stylesheet" href="../../css/reset.css">
-  <link rel="stylesheet" href="../../css/login.css">
-  <link rel="stylesheet" href="../../css/style_jogo_quarto2.css">
+  <link rel="stylesheet" href="../../css/game.css">
   <!-- Conexão de Java Script -->
-  <script defer src="../../js/Banheiro/login_banheiro.js"></script>
+  <script defer src="../../js/Quintal/game_quintal.js"></script>
 
 </head>
 
 <body>
 
-  <form class="login-form">
+  <main>
+    <header>
+      <span class="player"></span>
+      <span>Tempo: <span class="timer">00</span></span>
+    </header>
 
-    <div class="login__header">
-      <img src="../../images/brain.png" alt="brain icon">
-      <h1>Jogo Da Memoria</h1>
-    </div>
+    <div class="grid"></div>
+  </main>
 
-    <input type="text" placeholder="Nome" class="login__input">
-    <button type="submit" class="login__button" disabled>Play</button>
-
-    <br><br><br><br>
-    <a href="banheiro.html">Voltar</a>
-
-  </form>
+  <br>
+  <center><a id="voltar" href="quintal.php">Voltar</a></center>
 
 </body>
 

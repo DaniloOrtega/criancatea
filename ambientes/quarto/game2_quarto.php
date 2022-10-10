@@ -9,9 +9,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Configuração do favicon -->
-  <link rel="icon" type="image/x-icon" href="img/icon.ico">
+  <link rel="icon" type="image/x-icon" href="../../img/icon.ico">
   <!-- Título na guia do navegador -->
-  <title>Quintal - Imagem - Palavras</title>
+  <title>Criança TEA | Jogo Da Memoria</title>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,31 +19,26 @@
     href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Oswald&family=PT+Serif:wght@700&display=swap"
     rel="stylesheet">
   <!-- Conexão da folha de estilos -->
-  <link rel="stylesheet" href="../../css/style_jogo.css">
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/game.css">
+  <!-- Conexão de Java Script -->
+  <script defer src="../../js/Quarto/game_quarto.js"></script>
+
 </head>
 
 <body>
-  <section id="quarto">
-    <img id="quarto1" src="../../img/Quintal.jpg" alt="Imagem do Quarto" width="350px">
 
-    <div id="wrapper">
-      <div id="titulo"></div>
+  <main>
+    <header>
+      <span class="player"></span>
+      <span>Tempo: <span class="timer">00</span></span>
+    </header>
 
-      <ul>
-        <li class="alternativa"></li>
-        <li class="alternativa"></li>
-        <li class="alternativa"></li>
-      </ul>
+    <div class="grid"></div>
+  </main>
 
-      <div id="resultado"></div>
-
-      <div id="pontos"></div>
-
-      <a href="quintal.html">Voltar</a>
-  </section>
-
-
-  <script type="text/javascript" src="../../js/script_quintal.js"></script>
+  <br>
+  <center><a id="voltar" href="quarto.php">Voltar</a></center>
 
 </body>
 

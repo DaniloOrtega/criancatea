@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="../../css/reset.css">
   <link rel="stylesheet" href="../../css/game.css">
   <!-- Conexão de Java Script -->
-  <script defer src="../../js/Cozinha/game_cozinha.js"></script>
+  <script defer src="../../js/Sala/game_sala.js"></script>
 
 </head>
 
@@ -38,7 +38,7 @@
   </main>
 
   <br>
-  <center><a id="voltar" href="cozinha.html">Voltar</a></center>
+  <center><a id="voltar" href="sala.php">Voltar</a></center>
 
 </body>
 

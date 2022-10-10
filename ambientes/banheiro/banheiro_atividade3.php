@@ -106,7 +106,7 @@
         crossorigin="anonymous"></script>
 
         <br><br><br>
-        <b><center><a href="banheiro.html">Voltar</a></center></b>
+        <b><center><a href="banheiro.php">Voltar</a></center></b>
 </body>
 
 </html>
