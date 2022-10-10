@@ -3,16 +3,16 @@ const spanPlayer = document.querySelector('.player');
 const timer = document.querySelector('.timer');
 
 const characters = [
-  ' ',
-  ' ',
-  ' ',
-  ' ',
-  ' ',
-  ' ',
-  ' ',
-  ' ',
-  ' ',
-  ' ',
+  'Almofadas',
+  'Estante',
+  'Lareira',
+  'Poltrona',
+  'Puffs',
+  'Sofa',
+  'tv',
+  'Poltrona2',
+  'relogio',
+  'som',
 ];
 
 const createElement = (tag, className) => {
@@ -88,7 +88,7 @@ const createCard = (character) => {
   const front = createElement('div', 'face front');
   const back = createElement('div', 'face back');
 
-  front.style.backgroundImage = `url('../../images/Quarto/${character}.jpg')`;
+  front.style.backgroundImage = `url('../../images/Sala/${character}.jpg')`;
 
   card.appendChild(front);
   card.appendChild(back);
