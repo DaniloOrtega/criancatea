@@ -9,10 +9,10 @@ session_start();
 
   //CREDENCIAIS LOCAL (LARAGON)
   if($modo == 'local'){
-    $servidor = 'localhost';
-    $usuario = 'root';
-    $senha = '1234';
-    $banco = 'sistema-de-login';
+    $servidor = '@us-cdbr-east-06.cleardb.net';
+    $usuario = 'b6e06f6ed11f21';
+    $senha = 'f161a5a';
+    $banco = 'heroku_e00f68dabe10327';
   }
 
   //CREDENCIAIS PRODUÇÃO
