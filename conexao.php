@@ -11,7 +11,7 @@ session_start();
   if($modo == 'local'){
     $servidor = 'us-cdbr-east-06.cleardb.net';
     $usuario = 'b6e06f6ed11f21';
-    $senha = 'f161a5a';
+    $senha = 'f161a5ad';
     $banco = 'heroku_e00f68dabe10327';
   }
 
