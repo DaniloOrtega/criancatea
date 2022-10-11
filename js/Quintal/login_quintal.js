@@ -15,7 +15,7 @@ const handleSubmit = (event) => {
   event.preventDefault();
   
   localStorage.setItem('player', input.value);
-  window.location = '../quintal/game2_quintal.html';
+  window.location = '../quintal/game2_quintal.php';
 }
 
 input.addEventListener('input', validateInput);

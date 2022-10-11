@@ -15,7 +15,7 @@ const handleSubmit = (event) => {
   event.preventDefault();
   
   localStorage.setItem('player', input.value);
-  window.location = '../banheiro/game2_banheiro.html';
+  window.location = '../banheiro/game2_banheiro.php';
 }
 
 input.addEventListener('input', validateInput);

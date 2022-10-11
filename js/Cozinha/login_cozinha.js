@@ -15,7 +15,7 @@ const handleSubmit = (event) => {
   event.preventDefault();
   
   localStorage.setItem('player', input.value);
-  window.location = '../cozinha/game2_cozinha.html';
+  window.location = '../cozinha/game2_cozinha.php';
 }
 
 input.addEventListener('input', validateInput);

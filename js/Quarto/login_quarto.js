@@ -15,7 +15,7 @@ const handleSubmit = (event) => {
   event.preventDefault();
   
   localStorage.setItem('player', input.value);
-  window.location = '../quarto/game2_quarto.html';
+  window.location = '../quarto/game2_quarto.php';
 }
 
 input.addEventListener('input', validateInput);

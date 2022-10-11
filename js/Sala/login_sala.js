@@ -15,7 +15,7 @@ const handleSubmit = (event) => {
   event.preventDefault();
   
   localStorage.setItem('player', input.value);
-  window.location = '../sala/game2_sala.html';
+  window.location = '../sala/game2_sala.php';
 }
 
 input.addEventListener('input', validateInput);
