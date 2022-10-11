@@ -55,14 +55,14 @@ else{
         <h1>Atividades</h1>
   <div>
     <ul id="ambientes">
-      <li><a href="ambientes/quarto/quarto.html"><img src="img/Quarto.jpg" width="200px" height="160px"
+      <li><a href="ambientes/quarto/quarto.php"><img src="img/Quarto.jpg" width="200px" height="160px"
             alt="Quarto"></a></li>
-      <li><a href="ambientes/banheiro/banheiro.html"><img src="img/Banheiro.jpg" width="200px" height="160px"
+      <li><a href="ambientes/banheiro/banheiro.php"><img src="img/Banheiro.jpg" width="200px" height="160px"
             alt="Banheiro"></a></li>
-      <li><a href="ambientes/cozinha/cozinha.html"><img src="img/Cozinha.jpg" width="200px" height="160px"
+      <li><a href="ambientes/cozinha/cozinha.php"><img src="img/Cozinha.jpg" width="200px" height="160px"
             alt="Cozinha"></a></li>
-      <li><a href="ambientes/sala/sala.html"><img src="img/Sala.jpg" width="200px" height="160px" alt="Sala"></a></li>
-      <li><a href="ambientes/quintal/quintal.html"><img src="img/Quintal.jpg" width="200px" height="160px"
+      <li><a href="ambientes/sala/sala.php"><img src="img/Sala.jpg" width="200px" height="160px" alt="Sala"></a></li>
+      <li><a href="ambientes/quintal/quintal.php"><img src="img/Quintal.jpg" width="200px" height="160px"
             alt="Quintal"></a></li>
     </ul>    
   </div>
