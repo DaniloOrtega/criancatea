@@ -91,7 +91,7 @@
 
 						<!-- Logo -->
 							<div id="logo">
-								<h1 id="title"><a href="index.php">Criança TEA</a></h1>
+								<h1 id="title"><a href="index.php">Inicio</a></h1>
 							</div>
 
 					</header>
@@ -147,6 +147,7 @@
     <button class="btn-blue" type="submit">Cadastrar</button>
     <a href="entrar.php">Já tenho uma conta</a>
   </form>
+  <br>
   
 </body>
 </html>

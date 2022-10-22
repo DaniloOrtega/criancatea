@@ -27,16 +27,16 @@
 
 						<!-- Logo -->
 							<div id="logo">
-								<h1><a href="index.html">Criança TEA</a></h1>
+								<h1><a href="index.php">Criança TEA</a></h1>
 							</div>
 
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
-									<li class="current"><a href="index.html">Inicio</a></li>
+									<li class="current"><a href="index.php">Inicio</a></li>
 								
-									<li><a href="historia.html">História</a></li>
-									<li><a href="contato.html">Contato</a></li>
+									<li><a href="historia.php">História</a></li>
+									<li><a href="contato.php">Contato</a></li>
 									<li><a href="cadastro.php">Cadastre-se</a></li>
 								</ul>
 							</nav>
@@ -44,10 +44,30 @@
 					</header>
 				</div>
 
-				<div>
-					<center>Para mais informaçoes, dúvidas e sugestões, entre em contato:</center> <br><br>
+				<br>
+				<div id="email_message">
+					<!-- <center>Para mais informaçoes, dúvidas e sugestões, entre em contato:</center> <br><br>
 
-					<center>E-mail : criancatea@gmail.com</center> <br>
+					<center>E-mail :<a href="criancatea@gmail.com">Send email</a></center> -->
+
+				<form action="https://formsubmit.co/criancatea@outlook.com" method="POST">
+					<label  style="width:80%; text-align:center; margin-left:10%" for="email">E-mail</label>
+					<input placeholder="digite seu e-mail" style="width:80%; text-align:center; margin-left:10%" type="email" name="email" id="email" required>
+
+					<br>
+					<label style="width:80%; text-align:center; margin-left:10%" for="message">Mensagem</label>
+					<input placeholder="digite sua mensagem" style="width:80%; height:120px; text-align:center; margin-left:10%" type="text" name="text" id="text" required>
+
+					<br>
+					<center><button type="submit">Enviar</button></center>
+
+					<input type="hidden" name="_captcha" value="false">
+					<input type="hidden" name="_template" value="table">
+					<input type="hidden" name="_next" value="http://localhost/Home%20Page%20E%20Paginas%20do%20Site%20Crian%C3%A7a%20TEA%20Versao%20Oficial/Home%20Page%20E%20Paginas%20do%20Site%20Crian%C3%A7a%20TEA%20(PHP)/obrigado.html">
+					<input type="hidden" name="_autoresponse" value="Obrigado pela mensagem, responderemos em breve.">
+					
+					<br>
+				</form>
 				</div>
 
       </body>

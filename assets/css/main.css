@@ -70,6 +70,7 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+	
 }
 
 /* Basic */
@@ -1787,6 +1788,7 @@ input, select, textarea {
 
 		.box.feature {
 			padding: 0;
+			max-height: fit-content;
 		}
 
 			.box.feature .inner {

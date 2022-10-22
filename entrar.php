@@ -56,7 +56,7 @@ if (isset($_POST['email']) && isset($_POST['senha']) && !empty($_POST['email']) 
 
 						<!-- Logo -->
 							<div id="logo">
-								<h1 id="title"><a href="index.html">Criança TEA</a></h1>
+								<h1 id="title"><a href="index.php">Inicio</a></h1>
 							</div>
 
 					</header>
@@ -100,7 +100,7 @@ if (isset($_POST['email']) && isset($_POST['senha']) && !empty($_POST['email']) 
       }, 3000);
     </script>
   <?php } ?>
-
+<br>
 </body>
 
 </html>
