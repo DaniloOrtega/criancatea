@@ -2,26 +2,35 @@
 let questoes = [
 
   {
-    titulo: 'Qual o melhor lugar para comer ?',
-    alternativas : ['Cama', 'Sofá', 'Mesa da cozinha', ''],
+    titulo: 'Qual é a cor da geladeira ?',
+    alternativas : ['Cinza', 'Preta', 'Branca', ''],
     correta: 2
   },
 
   {
-    titulo: 'Depois de comer, deve fazer o que ?',
-    alternativas : ['Deixar o prato na mesa', 'Recolher o prato e talheres e levar até a pia da cozinha', 'Assistir TV'],
+    titulo: 'Quantas cadeiras tem na cozinha ?',
+    alternativas : ['3 Cadeiras', '2 Cadeiras', 'Nenhuma Cadeira'],
     correta: 1
   },
 
   {
-    titulo: 'Precisamos pensar em alguma pergunta ?',
-    alternativas : ['Alternativa 1', 'Alternativa 2', 'Alternativa 3'],
+    titulo: 'Qual é a cor do vaso ?',
+    alternativas : ['Laranja', 'Amarelo', 'Vermelho'],
+    correta: 2
+  },
+
+  {
+    titulo: 'Qual é a cor dos armarios ?',
+    alternativas : ['Verde', 'Amarelo', 'Marrom'],
     correta: 0
   },
 
   {
-    
-  }
+    titulo: 'Qual é a cor da panela que esta no fogão ?',
+    alternativas : ['Verde', 'Vermelha', 'Preta'],
+    correta: 1
+  },
+
 ]
 
 let app = {

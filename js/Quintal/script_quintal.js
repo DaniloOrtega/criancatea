@@ -2,26 +2,35 @@
 let questoes = [
 
   {
-    titulo: 'Precisamos pensar em alguma pergunta ?',
-    alternativas : ['Alternativa 1', 'Alternativa 2', 'Alternativa 3'],
+    titulo: 'Qual é a cor do pneu na arvore ?',
+    alternativas : ['Preto', 'Cinza', 'Roxo'],
+    correta: 2
+  },
+
+  {
+    titulo: 'Qual a cor do telhado da casa do cachorro ?',
+    alternativas : ['Marrom', 'Azul', 'Preto'],
+    correta: 1
+  },
+
+  {
+    titulo: 'Quantos cachorros tem no quintal ?',
+    alternativas : ['1 Cachorro', '2 Cachorros', 'Nenhum Cachorro'],
     correta: 0
   },
 
   {
-    titulo: 'Precisamos pensar em alguma pergunta ?',
-    alternativas : ['Alternativa 1', 'Alternativa 2', 'Alternativa 3'],
-    correta: 0
+    titulo: 'Qual á cor da vasilha de aguá do cachorro ?',
+    alternativas : ['Verde', 'Amarelo', 'Azul'],
+    correta: 2
   },
 
   {
-    titulo: 'Precisamos pensar em alguma pergunta ?',
-    alternativas : ['Alternativa 1', 'Alternativa 2', 'Alternativa 3'],
-    correta: 0
+    titulo: 'O que o menino esta usando ?',
+    alternativas : ['Chinelo', 'Sapato', 'Esta descalço'],
+    correta: 1
   },
 
-  {
-    
-  }
 ]
 
 let app = {

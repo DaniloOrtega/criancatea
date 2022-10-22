@@ -43,7 +43,7 @@
   </section>
 
 
-  <script type="text/javascript" src="../../js/script_quintal.js"></script>
+  <script type="text/javascript" src="../../js/Quintal/script_quintal.js"></script>
 
 </body>
 

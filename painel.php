@@ -1,16 +1,14 @@
 <?php
 
-  require('conexao.php');
-  // print_r($_SESSION);
+require('conexao.php');
+// print_r($_SESSION);
 
 // VERIFICAÇAO DE AUTENTICAÇAO
 $user = auth($_SESSION['TOKEN']);
-if($user){
+if ($user) {
   // SE USUSARIO AUTENCIAR - ENTRA NO PAINEL
-  echo "<h1> SEJA BEM VINDO(A) <b style='color:red'>". $user['nome']."!</b></h1>";
- 
-  }
-else{
+  echo "<h1> SEJA BEM VINDO(A) <b style='color:red'>" . $user['nome'] . "!</b></h1>";
+} else {
   // SE NAO AUTENTICAR - REDIRECIONA PARA LOGIN
   header('Location: entrar.php');
 }
@@ -18,6 +16,7 @@ else{
 
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <!-- Tags Meta -->
   <meta charset="UTF-8">
@@ -37,23 +36,24 @@ else{
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="css/style_jogo_menu.css">
 </head>
-	<body class="is-preload homepage">
-		<div id="page-wrapper">
 
-			<!-- Header -->
-				<div id="header-wrapper">
-					<header id="header" class="container">
+<body class="is-preload homepage">
+  <div id="page-wrapper">
 
-						<!-- Logo -->
-							<div id="logo">
-								<h1><a href="index.php">Criança TEA</a></h1>
-							</div>
+    <!-- Header -->
+    <div id="header-wrapper">
+      <header id="header" class="container">
 
-					</header>
-				</div>
+        <!-- Logo -->
+        <div id="logo">
+          <h1><a href="index.php">Criança TEA</a></h1>
+        </div>
 
-        <h1>Atividades</h1>
-  <div>
+      </header>
+    </div>
+
+    <h1>Atividades</h1>
+    <!-- <div>
     <ul id="ambientes">
       <li><a href="ambientes/quarto/quarto.php"><img src="img/Quarto.jpg" width="200px" height="160px"
             alt="Quarto"></a></li>
@@ -65,13 +65,100 @@ else{
       <li><a href="ambientes/quintal/quintal.php"><img src="img/Quintal.jpg" width="200px" height="160px"
             alt="Quintal"></a></li>
     </ul>    
-  </div>
-        </section>
-       
-      </body>
+  </div> -->
 
-    </html>
+    <!-- Features -->
+    <div id="features-wrapper">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-4 col-12-medium">
+            <!-- Box -->
+            <section style="height:50%;" >
+              <a href="ambientes/quarto/quarto.php" ><img src="img/Quarto.jpg"  width="260px" height="180px" alt="Quarto"></a>
+              <div class="inner">
+                <header>
+                  <a href="ambientes/quarto/quarto.php">
+                    <h2>Quarto</h2>
+                  </a>
+                </header>
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="col-4 col-12-medium">
+            <!-- Box -->
+            <section style="height:50%;" >
+              <a href="ambientes/banheiro/banheiro.php" ><img src="img/Banheiro.jpg" width="260px" height="180px" alt="Banheiro"></a>
+              <div class="inner">
+                <header>
+                  <a href="ambientes/banheiro/banheiro.php">
+                    <h2>Banheiro</h2>
+                  </a>
+                </header>
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="col-4 col-12-medium">
+            <!-- Box -->
+            <section style="height:50%;" >
+              <a href="ambientes/cozinha/cozinha.php" ><img src="img/Cozinha.jpg" width="260px" height="180px" alt="Cozinha"/></a>
+              <div class="inner">
+                <header>
+                  <a href="ambientes/cozinha/cozinha.php">
+                    <h2>Cozinha</h2>
+                  </a>
+                </header>
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="col-4 col-12-medium">
+            <!-- Box -->
+            <section style="height:50%;" >
+              <a href="ambientes/sala/sala.php" ><img src="img/Sala.jpg"  width="260px" height="180px" alt="Sala"></a>
+              <div class="inner">
+                <header>
+                  <a href="ambientes/sala/sala.php">
+                    <h2>Sala</h2>
+                  </a>
+                </header>
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="col-4 col-12-medium">
+            <!-- Box -->
+            <section style="height:50%;" >
+              <a href="ambientes/quintal/quintal.php" ><img src="img/Quintal.jpg"  width="260px" height="180px" alt="Quintal" /></a>
+              <div class="inner">
+                <header>
+                  <a href="ambientes/quintal/quintal.php">
+                    <h2>Quintal</h2>
+                  </a>
+                </header>
+                </p>
+              </div>
+            </section>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+</body>
+
+</html>
 <?php
- echo "<br> <br> <a style='background:green; text-decoration:none; color:white; padding:20px; border-radius:5px;' href='logout.php'>Sair do sistema</a>";
+echo "<br> <br> <a style='background:green; text-decoration:none; color:white; padding:20px; border-radius:5px;' href='logout.php'>Sair do sistema</a>";
 
 ?>
+<html>
+<br><br>
+
+</html>

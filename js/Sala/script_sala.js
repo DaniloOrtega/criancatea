@@ -2,26 +2,35 @@
 let questoes = [
 
   {
-    titulo: 'Precisamos pensar em alguma pergunta ?',
-    alternativas : ['Alternativa 1', 'Alternativa 2', 'Alternativa 3'],
+    titulo: 'Quantos quadros tem na parede ?',
+    alternativas : ['Nenhum Quadro', '2 Quadros', '4 Quadros'],
+    correta: 2
+  },
+
+  {
+    titulo: 'Qual é a cor da cortina ?',
+    alternativas : ['Verde', 'Azul', 'Não cortina'],
+    correta: 1
+  },
+
+  {
+    titulo: 'O sofá tem quantos lugares ?',
+    alternativas : ['2 Lugares', '3 Lugares', '1 Lugar'],
     correta: 0
   },
 
   {
-    titulo: 'Precisamos pensar em alguma pergunta ?',
-    alternativas : ['Alternativa 1', 'Alternativa 2', 'Alternativa 3'],
-    correta: 0
+    titulo: 'Quantos livros tem na mesa de centro ?',
+    alternativas : ['Nenhum Livro', '3 Livros', '2 Livros'],
+    correta: 2
   },
 
   {
-    titulo: 'Precisamos pensar em alguma pergunta ?',
-    alternativas : ['Alternativa 1', 'Alternativa 2', 'Alternativa 3'],
+    titulo: 'Quantos vasos tem na sala ?',
+    alternativas : ['2 Vasos', 'Nenhum Vaso', '1 Vaso'],
     correta: 0
   },
 
-  {
-    
-  }
 ]
 
 let app = {

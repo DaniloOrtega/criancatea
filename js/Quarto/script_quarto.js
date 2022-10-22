@@ -2,26 +2,34 @@
 let questoes = [
 
   {
-    titulo: 'Qual é a primeira coisa a se fazer quando for sair da cama ?',
-    alternativas : ['Colocar chinelo', 'Arrumar a cama ', 'Trocar de Roupa', ''],
-    correta: 0
-  },
-
-  {
-    titulo: 'Depois que levantar da cama, qual tarefa deve se fazer primeiro ?',
-    alternativas : ['Jogar Video Game', 'Arrumar a cama', 'Assistir TV'],
+    titulo: 'Quantas bolas tem no quarto ?',
+    alternativas : ['2 Bolas', '1 Bola', 'Não tem bolas no quarto', ''],
     correta: 1
   },
 
   {
-    titulo: 'Antes de sair para brincar ou estudar deve se antes ?',
-    alternativas : ['Jogar Video Game', 'Ir de pijama', 'Trocar de roupa'],
+    titulo: 'Qual é a cor do livro ?',
+    alternativas : ['Preto', 'Verde', 'Azul'],
     correta: 2
   },
 
   {
-    
-  }
+    titulo: 'Qual é a cor do skate ?',
+    alternativas : ['Vermelho', 'Azul', 'Preto'],
+    correta: 0
+  },
+
+  {
+    titulo: 'Que horas o relogio esta marcando ?',
+    alternativas : ['10 Horas', '8 horas', '3 horas'],
+    correta: 2
+  },
+
+  {
+    titulo: 'Qual é o animal que está no quarto ?',
+    alternativas : ['Gato', 'Cachorro', 'Coelho'],
+    correta: 0
+  },
 ]
 
 let app = {

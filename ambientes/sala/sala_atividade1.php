@@ -39,7 +39,7 @@
   </section>
 
 
-  <script type="text/javascript" src="../../js/script_sala.js"></script>
+  <script type="text/javascript" src="../../js/Sala/script_sala.js"></script>
 
 </body>
 

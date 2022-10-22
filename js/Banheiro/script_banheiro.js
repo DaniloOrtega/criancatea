@@ -2,26 +2,35 @@
 let questoes = [
 
   {
-    titulo: 'Qual é a primeira coisa a se fazer quando entrar no banheiro ?',
-    alternativas : ['Lavar o rosto', 'Escovar os dentes', 'Tomar banho', ''],
-    correta: 0
-  },
-
-  {
-    titulo: 'Depois das refeições, qual tarefa deve ser feita ?',
-    alternativas : ['Tomar banho', 'Escovar os dentes', 'Lavar o rosto'],
-    correta: 1
-  },
-
-  {
-    titulo: 'Depois de sair para brincar ou passear fora o que deve fazer quando chegar em casa ?',
-    alternativas : ['Escovar os dentes', 'Lavar o rosto', 'Tomar banho'],
+    titulo: 'Qual é a cor da tolhada ?',
+    alternativas : ['Rosa', 'Branca', 'Marrom', ''],
     correta: 2
   },
 
   {
-    
-  }
+    titulo: 'Quantos tapetes tem no banheiro ?',
+    alternativas : ['1 Tapete', '2 Tapetes', 'Não tem tapetes'],
+    correta: 1
+  },
+
+  {
+    titulo: 'Qual é a cor da Pia e do Vaso Sanitario?',
+    alternativas : ['Preto', 'Marrom', 'Branco'],
+    correta: 2
+  },
+
+  {
+    titulo: 'Qual é a cor da Lixeira ?',
+    alternativas : ['Não tem lixeira', 'Amarela', 'Branca'],
+    correta: 0
+  },
+
+  {
+    titulo: 'Qual é a cor da Azulejo ?',
+    alternativas : ['Branco', 'Verde', 'Azul'],
+    correta: 0
+  },
+
 ]
 
 let app = {

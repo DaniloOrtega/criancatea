@@ -23,6 +23,7 @@
 </head>
 
 <body>
+  <section style="display:flex">
   <div>
     <ul class="atividade1">
       <li><a href="quarto_atividade1.php"><img src="../../images/jogo_de_perguntas.jpg" width="200px" height="160px"
@@ -40,6 +41,8 @@
     <br><br>
     <center><b><a href="../../painel.php">Voltar</a></b></center>
   </div>
+  </section>
+  
 
 </body>
 

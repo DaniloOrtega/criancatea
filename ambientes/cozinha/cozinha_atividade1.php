@@ -43,7 +43,7 @@
   </section>
 
 
-  <script type="text/javascript" src="../../js/script_cozinha.js"></script>
+  <script type="text/javascript" src="../../js/Cozinha/script_cozinha.js"></script>
 
 </body>
 
