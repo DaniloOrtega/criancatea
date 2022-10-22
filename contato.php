@@ -63,9 +63,9 @@
 
 					<input type="hidden" name="_captcha" value="false">
 					<input type="hidden" name="_template" value="table">
-					<input type="hidden" name="_next" value="http://localhost/Home%20Page%20E%20Paginas%20do%20Site%20Crian%C3%A7a%20TEA%20Versao%20Oficial/Home%20Page%20E%20Paginas%20do%20Site%20Crian%C3%A7a%20TEA%20(PHP)/obrigado.html">
+					<input type="hidden" name="_next" value="https://criancatea.herokuapp.com/obrigado.html">
 					<input type="hidden" name="_autoresponse" value="Obrigado pela mensagem, responderemos em breve.">
-					
+
 					<br>
 				</form>
 				</div>
