@@ -24,8 +24,8 @@ body{
 }
 
 #imagem{
-    background-image: url("../img/Jogo_de_Palavras/imagem02.jpg");
-    width: 600px;
+    background-image: url("../img/Jogo_de_Palavras/Numero\ Seis.png");
+    width: 400px;
     height: 200px;
     background-repeat: no-repeat;
 }
@@ -42,7 +42,7 @@ body{
     width: 16px;
     text-align: center;
     border-bottom: 2px solid #8b008b;
-    color: #ffffff;
+    color: black;
     padding: 2px;
     margin-left: 2px;
     margin-right: 2px;

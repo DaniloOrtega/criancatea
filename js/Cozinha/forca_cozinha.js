@@ -6,43 +6,43 @@ const palavras = [
 
     palavra001 = {
         nome: "BULE",
-        categoria:"OBJETOS - COZINHA"
+        categoria:"Número De Chances:"
     },
     palavra002 = {
         nome: "CAFETEIRA",
-        categoria:"OBJETOS - COZINHA"
+        categoria:"Número De Chances:"
     },
     palavra003 = {
         nome: "FACAS",
-        categoria:"OBJETOS - COZINHA"
+        categoria:"Número De Chances:"
     },
     palavra004 = {
         nome: "FOGAO",
-        categoria:"OBJETOS - COZINHA"
+        categoria:"Número De Chances:"
     },
     palavra005 = {
         nome: "GELADEIRA",
-        categoria:"OBJETOS - COZINHA"
+        categoria:"Número De Chances:"
     },
     palavra006 = {
         nome: "MICROONDAS",
-        categoria:"OBJETOS - COZINHA"
+        categoria:"Número De Chances:"
     },
     palavra007 = {
         nome: "PANELAS",
-        categoria:"OBJETOS - COZINHA"
+        categoria:"Número De Chances:"
     },
     palavra008 = {
         nome: "ROLO",
-        categoria:"OBJETOS - COZINHA"
+        categoria:"Número De Chances:"
     },
     palavra009 = {
         nome: "TABUA-DE-CARNE",
-        categoria:"OBJETOS - COZINHA"
+        categoria:"Número De Chances:"
     },
     palavra010 = {
         nome: "TALHERES",
-        categoria:"OBJETOS - COZINHA"
+        categoria:"Número De Chances:"
     },
 
    
@@ -127,25 +127,25 @@ function comparalistas(letra){
 function carregaImagemForca(){
     switch(tentativas){
         case 5:
-            document.getElementById("imagem").style.background  = "url('../../img/Forca/forca01.png";
+            document.getElementById("imagem").style.background  = "url('../../img/Jogo_de_Palavras/Numero Cinco.png";
             break;
         case 4:
-            document.getElementById("imagem").style.background  = "url('../../img/Forca/forca02.png";
+            document.getElementById("imagem").style.background  = "url('../../img/Jogo_de_Palavras/Numero Quatro.png";
             break;
         case 3:
-            document.getElementById("imagem").style.background  = "url('../../img/Forca/forca03.png";
+            document.getElementById("imagem").style.background  = "url('../../img/Jogo_de_Palavras/Numero Tres.png";
             break;
         case 2:
-            document.getElementById("imagem").style.background  = "url('../../img/Forca/forca04.png";
+            document.getElementById("imagem").style.background  = "url('../../img/Jogo_de_Palavras/Numero Dois.png";
             break;
         case 1:
-            document.getElementById("imagem").style.background  = "url('../../img/Forca/forca05.png";
+            document.getElementById("imagem").style.background  = "url('../../img/Jogo_de_Palavras/Numero Um.png";
             break;
         case 0:
-            document.getElementById("imagem").style.background  = "url('../../img/Forca/forca06.png";
+            document.getElementById("imagem").style.background  = "url('../../img/Jogo_de_Palavras/Numero Zero.png";
             break;
         default:
-            document.getElementById("imagem").style.background  = "url('../../img/Forca/forca07.png";
+            document.getElementById("imagem").style.background  = "url('../../img/Jogo_de_Palavras/Numero Seis.png";
             break;
     }
 }

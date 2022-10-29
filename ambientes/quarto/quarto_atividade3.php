@@ -21,7 +21,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../../css/forca.css" media="screen">
     <!-- Título na guia do navegador -->
-    <title>Jogo da Forca</title>
+    <title>Jogo De Palavras</title>
 </head>
 
 <body>
