@@ -1,0 +1,12 @@
+.texto{
+  font-size: 24px;
+  color:black; 
+  font-weight:bold;
+  text-align: justify;
+}
+
+.titulo_texto{
+  color: black;
+  text-decoration: underline;
+  text-align: justify;
+}

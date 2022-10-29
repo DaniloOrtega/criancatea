@@ -9,7 +9,7 @@ body{
     width: 100vw;
     height: 90vh;
     margin-top: 10px;
-   background-color: aqua;
+   background-color: white;
     
     /* background-color: goldenrod; */
     font-family: 'Ubuntu', sans-serif;
@@ -24,9 +24,9 @@ body{
 }
 
 #imagem{
-    background-image: url("../img/Forca/forca.png");
-    width: 234px;
-    height: 272px;
+    background-image: url("../img/Jogo_de_Palavras/imagem02.jpg");
+    width: 600px;
+    height: 200px;
     background-repeat: no-repeat;
 }
 #palavra-secreta{

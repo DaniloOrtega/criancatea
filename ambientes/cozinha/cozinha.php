@@ -34,8 +34,8 @@
     </ul>
     <br>
     <ul class="atividade3">
-      <li><a href="cozinha_atividade3.php"><img src="../../images/jogo_da_forca.jpg" width="200px" height="160px"
-            alt="Atividade 3"><br>Jogo Da Forca</a></li>
+      <li><a href="cozinha_atividade3.php"><img src="../../images/jogo_de_palavras.jpg" width="200px" height="160px"
+            alt="Atividade 3"><br>Jogo De Palavras</a></li>
     </ul>
     <br><br>
     <center><b><a href="../../painel.php">Voltar</a></b></center>

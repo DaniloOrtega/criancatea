@@ -126,25 +126,25 @@ function comparalistas(letra){
 function carregaImagemForca(){
     switch(tentativas){
         case 5:
-            document.getElementById("imagem").style.background  = "url('../../img/Forca/forca01.png";
+            document.getElementById("imagem").style.background  = "url('../../img/Jogo_de_Palavras/imagem0.jpg";
             break;
         case 4:
-            document.getElementById("imagem").style.background  = "url('../../img/Forca/forca02.png";
+            document.getElementById("imagem").style.background  = "url('../../img/Jogo_de_Palavras/imagem1.jpg";
             break;
         case 3:
-            document.getElementById("imagem").style.background  = "url('../../img/Forca/forca03.png";
+            document.getElementById("imagem").style.background  = "url('../../img/Jogo_de_Palavras/imagem2.jpg";
             break;
         case 2:
-            document.getElementById("imagem").style.background  = "url('../../img/Forca/forca04.png";
+            document.getElementById("imagem").style.background  = "url('../../img/Jogo_de_Palavras/imagem3.jpg";
             break;
         case 1:
-            document.getElementById("imagem").style.background  = "url('../../img/Forca/forca05.png";
+            document.getElementById("imagem").style.background  = "url('../../img/Jogo_de_Palavras/imagem4.jpg";
             break;
         case 0:
-            document.getElementById("imagem").style.background  = "url('../../img/Forca/forca06.png";
+            document.getElementById("imagem").style.background  = "url('../../img/Jogo_de_Palavras/imagem5.jpg";
             break;
         default:
-            document.getElementById("imagem").style.background  = "url('../../img/Forca/forca07.png";
+            document.getElementById("imagem").style.background  = "url('../../img/Jogo_de_Palavras/imagem6.jpg";
             break;
     }
 }

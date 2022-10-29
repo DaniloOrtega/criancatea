@@ -31,15 +31,15 @@
     </ul>
     <ul class="atividade2">
       <li><a href="quarto_atividade2.php"><img src="../../images/jogo_da_memoria.jpg" width="200px" height="160px"
-            alt="Atividade 1"><br>Jogo Da Memoria</a></li>
+            alt="Atividade 2"><br>Jogo Da Memoria</a></li>
     </ul>
     <br>
     <ul class="atividade3">
-      <li><a href="quarto_atividade3.php"><img src="../../images/jogo_da_forca.jpg" width="200px" height="160px"
-            alt="Atividade 1"><br>Jogo Da Forca</a></li>
+      <li><a href="quarto_atividade3.php"><img src="../../images/jogo_de_palavras.jpg" width="200px" height="160px"
+            alt="Atividade 3"><br>Jogo De Palavras</a></li>
     </ul>
     <br><br>
-    <center><b><a href="../../painel.php">Voltar</a></b></center>
+   <center><a href="../../painel.php">Voltar</a></center>
   </div>
   </section>
   
