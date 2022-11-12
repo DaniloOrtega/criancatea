@@ -1,5 +1,5 @@
 body {
-  background: #58cc02;
+  background: white;
   font-family: Nunito;
   text-align: center;
 }
@@ -29,7 +29,7 @@ ul {
 #titulo {
   font-size: 20px;
   font-weight: bold;
-  background: #58cc02;
+  background: white;
   padding: 10px;
 }
 
